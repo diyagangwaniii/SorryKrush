@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff5f7 0%, #fce4ec 100%);
+            font-family: 'Poppins', sans-serif;
+            color: #4a4a4a;
+        }
+
+        .card {
+            background: white;
+            width: 85%;
+            max-width: 350px;
+            padding: 30px;
+            border-radius: 30px;
+            box-shadow: 0 15px 35px rgba(255, 182, 193, 0.4);
+            text-align: center;
+            position: relative;
+            border: 1px solid #fce4ec;
+        }
+
+        .anniversary-badge {
+            background: #ff85a2;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 10px rgba(255, 133, 162, 0.3);
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            color: #d81b60;
+            font-size: 2.2rem;
+            margin: 0 0 15px 0;
+        }
+
+        .divider {
+            width: 50px;
+            height: 3px;
+            background: #ff85a2;
+            margin: 0 auto 20px auto;
+            border-radius: 10px;
+        }
+
+        .message {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #d81b60;
+            font-weight: 600;
+            background: #fff0f3;
+            padding: 5px 10px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .footer {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5rem;
+            color: #880e4f;
+            margin-top: 25px;
+        }
+
+        .floating-heart {
+            font-size: 25px;
+            margin-top: 10px;
+            display: block;
+            animation: heartBeat 1.5s infinite;
+        }
+
+        @keyframes heartBeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="anniversary-badge">HAPPY 1 MONTH</div>
+        <h1>I'm So Sorry</h1>
+        <div class="divider"></div>
+
+        <div class="message">
+            <p>I’ve been sitting here feeling so heavy about today. Instead of celebrating "us," I let my temper get the best of me and overreacted when I knew you already had the stress of your exam on your shoulders. I hate that I was the one to ruin your day.</p>
+            
+            <p>I know I’m short-tempered, and I’m not proud of it, but I promise I’m committed to working on that. I don't want us to be "me vs. you"—I want us to be a team working against the problem.</p>
+            
+            <p>I truly like the person you are, and more than anything, I just want us to be happy again. <span class="highlight">Can we start our second month with a clean slate?</span></p>
+        </div>
+
+        <div class="footer">Love, Janvi</div>
+        <div class="floating-heart">❤️</div>
+    </div>
+
+</body>
+</html>
